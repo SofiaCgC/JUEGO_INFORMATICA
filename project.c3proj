@@ -144,7 +144,8 @@
 			"Botón2",
 			"Texto5",
 			"Texto6",
-			"Sprite12"
+			"Sprite12",
+			"TGR"
 		],
 		"subfolders": []
 	},
@@ -159,7 +160,8 @@
 			"Escena 1",
 			"Escena 2",
 			"Escena 3",
-			"Escena 4"
+			"Escena 4",
+			"Escena 5"
 		],
 		"subfolders": []
 	},
