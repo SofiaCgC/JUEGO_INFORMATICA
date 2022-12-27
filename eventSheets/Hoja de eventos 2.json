@@ -1,0 +1,340 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "puntuacion",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 283189782374259
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 646618004208088
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto4",
+					"sid": 330408435814931,
+					"parameters": {
+						"text": "puntuacion"
+					}
+				}
+			],
+			"sid": 747159778979498
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 907293532512945,
+					"parameters": {
+						"interval-seconds": "0.5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite2",
+					"sid": 622334640966497,
+					"parameters": {
+						"object": "Sprite4",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 763681048531364
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 758607664703459
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 965725753180006,
+					"parameters": {
+						"object": "Sprite5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite5",
+					"sid": 428123286787327
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite4",
+					"sid": 685529924546929,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 453598064229927,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 123906285362684
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 744456808940389,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite6",
+					"sid": 463106242256503
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 503147238697236,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 616431437084638
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 950721587044386,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite7",
+					"sid": 331006223145621
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 655575867875353,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "2"
+					}
+				}
+			],
+			"sid": 813902020683122
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 988449696799822,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite8",
+					"sid": 262370341684726
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 547372130345402,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "-1"
+					}
+				}
+			],
+			"sid": 796588934747789
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 636070521663370,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite9",
+					"sid": 941750663940236
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 840076197305465,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 194239080746196
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 786901508241584,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite10",
+					"sid": 392254683530290
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 924267605787029,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 581493297181483
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 750171075585245,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite11",
+					"sid": 665978177470728
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 260497601256831,
+					"parameters": {
+						"variable": "puntuacion",
+						"value": "-2"
+					}
+				}
+			],
+			"sid": 616732916199566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 853843608522838,
+					"parameters": {
+						"variable": "puntuacion",
+						"comparison": 3,
+						"value": "-1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 419711991889397,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 103325381180911
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 488322175577011,
+					"parameters": {
+						"variable": "puntuacion",
+						"comparison": 5,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 532104694399867,
+					"parameters": {
+						"layout": "Escena 4"
+					}
+				}
+			],
+			"sid": 312279068188163
+		}
+	],
+	"sid": 433956801517401
+}

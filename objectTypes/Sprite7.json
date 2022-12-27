@@ -1,0 +1,43 @@
+{
+	"name": "Sprite7",
+	"plugin-id": "Sprite",
+	"sid": 386530323578817,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Seno",
+			"sid": 931109383850702
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 13,
+						"height": 14,
+						"originX": 2.230769230769231,
+						"originY": 1.9285714285714286,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1923891,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 672332353970064,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

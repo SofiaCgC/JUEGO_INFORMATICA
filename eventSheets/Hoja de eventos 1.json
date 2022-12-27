@@ -1,0 +1,30 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 368033753359483,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 163585422279907,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 680438651754643
+		}
+	],
+	"sid": 956576589575177
+}

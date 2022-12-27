@@ -1,0 +1,14 @@
+{
+	"name": "Botón2",
+	"plugin-id": "Button",
+	"sid": 497470589418872,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbitar",
+			"sid": 498018042475402
+		}
+	]
+}

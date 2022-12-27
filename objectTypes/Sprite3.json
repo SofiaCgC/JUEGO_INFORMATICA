@@ -1,0 +1,53 @@
+{
+	"name": "Sprite3",
+	"plugin-id": "Sprite",
+	"sid": 390587116776407,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Flash",
+			"name": "Parpadeo",
+			"sid": 694276253139112
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 82,
+						"height": 28,
+						"originX": 0.2804878048780488,
+						"originY": 1.0357142857142858,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9792879,
+						"collisionPoly": {
+							"points": [
+								0.2804878048780488,
+								0.03571428571428571,
+								0.926829268292683,
+								0.9285714285714286,
+								0.2804878048780488,
+								0.9285714285714286
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 797518417943416,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
