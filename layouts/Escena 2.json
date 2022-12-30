@@ -506,7 +506,7 @@
 							"properties": {
 								"movement": "vertical",
 								"wave": "sine",
-								"period": 20,
+								"period": 15,
 								"period-random": 0,
 								"period-offset": 0,
 								"period-offset-random": 0,
@@ -537,7 +537,7 @@
 				{
 					"type": "TGR",
 					"properties": {
-						"text": "¡Necesitamos un PC para nuestra nave!",
+						"text": "¡Necesitamos un PC para sobrevivir a la carrera!",
 						"enable-bbcode": true,
 						"font": "monospace",
 						"size": 7,
@@ -560,9 +560,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 116.10001373291016,
-						"y": 18.737300872802734,
-						"width": 193.19998168945312,
+						"x": 117.70001983642578,
+						"y": 13.937297821044922,
+						"width": 128.79998779296875,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
